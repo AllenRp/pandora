@@ -33,10 +33,8 @@ fi
 if [ -n "${PANDORA_VERBOSE}" ]; then
   PANDORA_ARGS="${PANDORA_ARGS} -v"
 fi
+PANDORA_COMMAND="pandora-cloud"
 
-if [ -n "${PANDORA_CLOUD}" ]; then
-  PANDORA_COMMAND="pandora-cloud"
-fi
 
 export USER_CONFIG_DIR
 
