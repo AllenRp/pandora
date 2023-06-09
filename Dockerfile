@@ -8,5 +8,5 @@ WORKDIR /opt/app
 ADD . .
 
 RUN pip --no-cache-dir install --upgrade pip && pip --no-cache-dir install .[api,cloud]
-EXPOSE 8086
+EXPOSE 8236
 ENTRYPOINT ["bin/startup.sh"]
