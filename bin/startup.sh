@@ -45,3 +45,5 @@ export USER_CONFIG_DIR
 
 # shellcheck disable=SC2086
 $(command -v ${PANDORA_COMMAND}) ${PANDORA_ARGS}
+echo ${PANDORA_ARGS} 
+echo ${PANDORA_COMMAND}
